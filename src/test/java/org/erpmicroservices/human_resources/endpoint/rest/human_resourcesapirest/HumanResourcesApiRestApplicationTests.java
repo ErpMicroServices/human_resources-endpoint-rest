@@ -1,10 +1,10 @@
-package org.erpmicroservices.human_resources.endpoint.rest.human_resourcesapirest;
+package org.erpmicroservices.human_resources.endpoint.rest.human_resourcesendpointrest;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.endpoint.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HumanResourcesApiRestApplicationTests {
+class HumanResourcesEndpointRestApplicationTests {
 
  @Test
  void contextLoads() {

@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.erpmicroservices.human_resources.endpoint.rest</groupId>
-    <artifactId>human_resources-api-rest</artifactId>
+    <artifactId>human_resources-endpoint-rest</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>human_resources-api-rest</name>
+    <name>human_resources-endpoint-rest</name>
     <description>Restful HATEOAS endpoints for human resources</description>
 
     <properties>
