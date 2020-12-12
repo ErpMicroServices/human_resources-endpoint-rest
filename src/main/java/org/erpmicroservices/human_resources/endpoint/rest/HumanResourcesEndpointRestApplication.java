@@ -1,4 +1,4 @@
-package org.erpmicroservices.human_resources.endpoint.rest.human_resourcesendpointrest;
+package org.erpmicroservices.human_resources.endpoint.rest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

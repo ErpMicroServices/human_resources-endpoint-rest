@@ -1,6 +1,6 @@
-package org.erpmicroservices.human_resources.endpoint.rest.human_resourcesendpointrest;
+package org.erpmicroservices.human_resources.endpoint.rest;
 
-import org.junit.jupiter.endpoint.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
