@@ -53,4 +53,10 @@ public class Position extends AbstractPersistable<UUID> {
 	@OneToMany
 	@JoinColumn(name = "position_id")
 	private List<PositionFulfillment> positionFulfillments = new ArrayList<>();
+	@OneToMany
+	@JoinColumn(name = "reports_to")
+	private List<PositionReportingStructure> reportsTo = new ArrayList<>();
+	@OneToMany
+	@JoinColumn(name = "manage_by")
+	private List<PositionReportingStructure> manageBy = new ArrayList<>();
 }
