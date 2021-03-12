@@ -13,6 +13,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -48,5 +49,8 @@ public class Position extends AbstractPersistable<UUID> {
 	private UUID budgetItemId;
 	@OneToMany
 	@JoinColumn(name = "position_id")
-	private List<PositionResponsibility> responsibilities;
+	private List<PositionResponsibility> responsibilities = new ArrayList<>();
+	@OneToMany
+	@JoinColumn(name = "position_id")
+	private List<PositionFulfillment> positionFulfillments = new ArrayList<>();
 }
