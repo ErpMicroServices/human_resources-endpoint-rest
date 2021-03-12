@@ -29,4 +29,8 @@ public class PositionType extends AbstractPersistable<UUID> {
 	@OneToMany
 	@JoinColumn(name = "position_type_id")
 	private List<ValidResponsibility> validResponsibilities = new ArrayList<>();
+	@OneToMany
+	@JoinColumn(name = "position_type_id")
+	private List<PositionTypeClass> positionTypeClasses = new ArrayList<>();
+	private UUID organizationRoleId;
 }
