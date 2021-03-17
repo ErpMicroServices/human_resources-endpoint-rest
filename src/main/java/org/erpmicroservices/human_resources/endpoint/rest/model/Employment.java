@@ -20,9 +20,6 @@ public class Employment extends AbstractPersistable<UUID> {
 	private UUID partyRelationshipId;
 	@OneToMany
 	@JoinColumn(name = "employment_id")
-
-	@FindBy(css = "")
-
 	@OrderBy(value = "unemploymentClaimDate")
 	private List<UnemploymentClaim> unemploymentClaims = new ArrayList<>();
 	@ManyToOne
