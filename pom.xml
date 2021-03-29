@@ -9,7 +9,7 @@
     </parent>
     <groupId>org.erpmicroservices.human_resources.endpoint.rest</groupId>
     <artifactId>human_resources-endpoint-rest</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0-SNAPSHOT</version>
     <name>human_resources-endpoint-rest</name>
     <description>Restful HATEOAS endpoints for human resources</description>
 
@@ -18,7 +18,7 @@
         <developerConnection>scm:git:ssh://git@github.com/ErpMicroServices/human_resources-endpoint-rest.git
         </developerConnection>
         <url>scm:git:ssh://git@github.com/ErpMicroServices/human_resources-endpoint-rest.git</url>
-        <tag>human_resources-endpoint-rest-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
