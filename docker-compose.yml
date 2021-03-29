@@ -1,7 +1,7 @@
 version: '3'
 services:
   database:
-    image: erpmicroservices/human_resources-database:latest
+    image: erpmicroservices/human_resources-database:1.0.0
     ports:
       - "5432:5432"
     volumes:
