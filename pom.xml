@@ -4,25 +4,41 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.1</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
-    <groupId>org.erpmicroservices.human_resources.endpoint.rest</groupId>
-    <artifactId>human_resources-endpoint-rest</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>human_resources-endpoint-rest</name>
-    <description>Restful HATEOAS endpoints for human resources</description>
+        <artifactId >spring-boot-starter-parent</artifactId >
+        <version >2.4.1</version >
+        <relativePath /> <!-- lookup parent from repository -->
+    </parent >
+    <groupId >org.erpmicroservices.human_resources.endpoint.rest</groupId >
+    <artifactId >human_resources-endpoint-rest</artifactId >
+    <version >0.0.1-SNAPSHOT</version >
+    <name >human_resources-endpoint-rest</name >
+    <description >Restful HATEOAS endpoints for human resources</description >
 
-    <properties>
-        <java.version>11</java.version>
-    </properties>
+    <scm >
+        <connection >scm:git:ssh://git@github.com/ErpMicroServices/human_resources-endpoint-rest.git</connection >
+        <developerConnection >scm:git:ssh://git@github.com/ErpMicroServices/human_resources-endpoint-rest.git
+        </developerConnection >
+        <url >scm:git:ssh://git@github.com/ErpMicroServices/human_resources-endpoint-rest.git</url >
+        <tag >HEAD</tag >
+    </scm >
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
+    <distributionManagement >
+        <repository >
+            <id >github</id >
+            <name >GitHub ErpMicroServices Apache Maven Packages</name >
+            <url >https://maven.pkg.github.com/ErpMicroServices/human_resources-endpoint-rest</url >
+        </repository >
+    </distributionManagement >
+
+    <properties >
+        <java.version >11</java.version >
+    </properties >
+
+    <dependencies >
+        <dependency >
+            <groupId >org.springframework.boot</groupId >
+            <artifactId >spring-boot-starter-actuator</artifactId >
+        </dependency >
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
